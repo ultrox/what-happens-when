@@ -90,14 +90,18 @@ the default gateway it can resume its DNS process:
   requested and that flows up the list of DNS servers until the SOA is reached,
   and if found an answer is returned.
   
-  
+ 
+ 
+Opening the socket
+----------
+
+
 .. raw:: html
 
    <details>
-   <summary><a>Opening the Socket</a></summary>
+   <summary><a>Content</a></summary>
 
-Opening the socket
-----------
+
 
 Once the browser receives the IP address of the destination server, it takes
 that and the given port number from the URL (the HTTP protocol defaults to port
