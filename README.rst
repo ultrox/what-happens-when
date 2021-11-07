@@ -95,6 +95,8 @@ the default gateway it can resume its DNS process:
 Opening the socket
 ----------
 
+https://www.youtube.com/watch?v=F27PLin3TV0
+https://www.youtube.com/watch?v=HCHFX5O1IaQ (the same but more in WS)
 
 .. raw:: html
 
@@ -178,6 +180,14 @@ This send and receive happens multiple times following the TCP connection flow:
 
 TLS handshake
 -------------
+https://www.youtube.com/watch?v=MQg48n9lV0s
+
+.. raw:: html
+
+   <details>
+   <summary><a>Typically initiated by server </a></summary>
+
+
 * The client computer sends a ``ClientHello`` message to the server with its
   Transport Layer Security (TLS) version, list of cipher algorithms and
   compression methods available.
