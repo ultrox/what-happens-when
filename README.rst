@@ -95,8 +95,8 @@ the default gateway it can resume its DNS process:
 Opening the socket
 ----------
 
-https://www.youtube.com/watch?v=F27PLin3TV0
-https://www.youtube.com/watch?v=HCHFX5O1IaQ (the same but more in WS)
+* https://www.youtube.com/watch?v=F27PLin3TV0
+* https://www.youtube.com/watch?v=HCHFX5O1IaQ (the same but more in WS)
 
 .. raw:: html
 
@@ -178,6 +178,7 @@ This send and receive happens multiple times following the TCP connection flow:
 
    </details>
 
+
 TLS handshake
 -------------
 https://www.youtube.com/watch?v=MQg48n9lV0s
@@ -232,6 +233,10 @@ control`_. This varies depending on the sender; the most common algorithms are
 * After reaching the slow-start threshold, the window increases additively for
   each packet acknowledged. If a packet is dropped, the window reduces
   exponentially until another packet is acknowledged.
+  
+.. raw:: html
+
+   </details>
 
 HTTP protocol
 -------------
