@@ -5,10 +5,12 @@ This repository is an attempt to answer the age-old interview question "What
 happens when you type google.com into your browser's address box and press
 enter?"
 
-This is shortend version forked from [here](https://github.com/alex/what-happens-when)
+This is shortend version forked from https://github.com/alex/what-happens-when
 
+   
 Table of Contents
 ====================
+
 
 .. contents::
    :backlinks: none
@@ -87,9 +89,16 @@ the default gateway it can resume its DNS process:
 * If the local/ISP DNS server does not have it, then a recursive search is
   requested and that flows up the list of DNS servers until the SOA is reached,
   and if found an answer is returned.
+  
+  
+.. raw:: html
 
-Opening of a socket
--------------------
+   <details>
+   <summary><a>Opening the Socket</a></summary>
+
+Opening the socket
+----------
+
 Once the browser receives the IP address of the destination server, it takes
 that and the given port number from the URL (the HTTP protocol defaults to port
 80, and HTTPS to port 443), and makes a call to the system library function
@@ -157,6 +166,11 @@ This send and receive happens multiple times following the TCP connection flow:
    * The closer sends a FIN packet
    * The other sides ACKs the FIN packet and sends its own FIN
    * The closer acknowledges the other side's FIN with an ACK
+   
+
+.. raw:: html
+
+   </details>
 
 TLS handshake
 -------------
